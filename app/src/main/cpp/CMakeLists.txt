@@ -47,4 +47,4 @@ target_include_directories(luajni PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/zstd/commo
 target_compile_options(luajni PRIVATE -O2 -DLUA_USE_POSIX)
 target_compile_options(luajni PRIVATE -Wno-unused-parameter -Wno-sign-compare)
 # disable zstd x86 asm loop (needs huf_decompress_amd64.S); pure C paths are fine
-target_compile_definitions(luajni PRIVATE ZSTD_ENABLE_ASM_X86_64_BMI2=0)
+target_compile_definitions(luajni PRIVATE ZSTD_DISABLE_ASM=1)
