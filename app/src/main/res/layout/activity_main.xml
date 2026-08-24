@@ -153,7 +153,70 @@
                     <TextView style="@style/ToolCardTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/compile_title" />
                     <TextView style="@style/ToolCardDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/compile_desc" />
                     <Button android:id="@+id/btn_compile" style="@style/ToolButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/btn_pick_lua" />
+                    <Button android:id="@+id/btn_compile_t24" style="@style/ToolButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/btn_compile_t24" />
                     <TextView android:id="@+id/status_compile" style="@style/StatusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.MaterialComponents.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="14dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView style="@style/ToolCardTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pubg_unpack_title" />
+                    <TextView style="@style/ToolCardDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/pubg_unpack_desc" />
+                    <Button android:id="@+id/btn_pubg_unpack" style="@style/ToolButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/btn_pick_extract" />
+                    <TextView android:id="@+id/status_pubg_unpack" style="@style/StatusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.MaterialComponents.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="14dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView style="@style/ToolCardTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pubg_repack_title" />
+                    <TextView style="@style/ToolCardDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/pubg_repack_desc" />
+                    <Button android:id="@+id/btn_pubg_repack" style="@style/ToolButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/btn_pick_folder" />
+                    <TextView android:id="@+id/status_pubg_repack" style="@style/StatusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.MaterialComponents.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="14dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView style="@style/ToolCardTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/keys_title" />
+                    <TextView style="@style/ToolCardDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/keys_desc" />
+                    <Button android:id="@+id/btn_keys" style="@style/ToolButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/btn_keys_open" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 

@@ -37,7 +37,12 @@ set(LUA_SOURCES
     lua/lzio.c
 )
 
-add_library(luajni SHARED luajni.c ${LUA_SOURCES})
+file(GLOB_RECURSE ZSTD_SOURCES zstd/*.c)
+
+add_library(luajni SHARED luajni.c zstdjni.c ${LUA_SOURCES} ${ZSTD_SOURCES})
 
 target_include_directories(luajni PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/lua)
+target_include_directories(luajni PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/zstd)
+target_include_directories(luajni PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/zstd/common)
 target_compile_options(luajni PRIVATE -O2 -DLUA_USE_POSIX)
+target_compile_options(luajni PRIVATE -Wno-unused-parameter -Wno-sign-compare)

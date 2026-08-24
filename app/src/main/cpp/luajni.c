@@ -88,3 +88,9 @@ Java_com_obbpak_tool_LuaCompiler_compile(JNIEnv *env, jclass cls,
     free(b.buf);
     return out;
 }
+
+JNIEXPORT jint JNICALL
+Java_com_obbpak_tool_LuaCompiler_nativeSizeT(JNIEnv *env, jclass cls) {
+    (void) env; (void) cls;
+    return (jint) sizeof(size_t);
+}

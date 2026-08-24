@@ -8,7 +8,14 @@ public final class LuaCompiler {
         return nativeCompile(source, chunkName, strip);
     }
 
+    /** sizeof(size_t) of the native build that produced our dumps. */
+    public static int sizeT() {
+        return nativeSizeT();
+    }
+
     private static native byte[] nativeCompile(byte[] source, String chunkName, boolean strip);
+
+    private static native int nativeSizeT();
 
     static {
         System.loadLibrary("luajni");

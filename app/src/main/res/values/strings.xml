@@ -22,4 +22,12 @@
     <string name="key_hint">Enter XOR key (text or hex like 0xAB CD)</string>
     <string name="done">Done!</string>
     <string name="working">Working…</string>
+    <string name="pubg_unpack_title">PUBG PAK UNPACK (ENCRYPTED)</string>
+    <string name="pubg_unpack_desc">Decrypt + decompress .lua files from a Tencent/UE-style encrypted pak</string>
+    <string name="pubg_repack_title">PUBG PAK REPACK</string>
+    <string name="pubg_repack_desc">Pick original pak + folder of edited .lua — compiles, converts to T24 and patches slots in place</string>
+    <string name="keys_title">PAK KEYS (CUSTOM)</string>
+    <string name="keys_desc">Edit ZUC / RSA / SM4 / SIMPLE / T24 keys, import &amp; export key sets as .json</string>
+    <string name="btn_keys_open">OPEN KEY EDITOR</string>
+    <string name="btn_compile_t24">COMPILE LUA → PUBG T24 (.luac)</string>
 </resources>
