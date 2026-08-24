@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OBB-PAK TOOL</string>
+    <string name="extract_title">EXTRACT OBB / PAK (ZIP)</string>
+    <string name="repack_title">REPACK FOLDER TO OBB / PAK</string>
+    <string name="decompile_title">DECOMPILE LUA (.luac → .lua)</string>
+    <string name="compile_title">COMPILE LUA (.lua → .luac)</string>
+    <string name="xor_title">XOR ENCRYPT / DECRYPT</string>
+    <string name="storage_title">GRANT ALL FILES ACCESS</string>
+    <string name="extract_desc">Pick an .obb or .pak file and extract it to any folder</string>
+    <string name="repack_desc">Pick a folder and pack it back into .obb / .pak</string>
+    <string name="decompile_desc">Decompile compiled Lua 5.3 bytecode back to source</string>
+    <string name="compile_desc">Compile Lua 5.3 source into bytecode (luac 5.3)</string>
+    <string name="xor_desc">XOR a file with a custom key (encrypt / decrypt)</string>
+    <string name="storage_desc">Needed to write directly into Android/data and OBB folders</string>
+    <string name="btn_pick_extract">SELECT FILE + EXTRACT</string>
+    <string name="btn_pick_folder">SELECT FOLDER + REPACK</string>
+    <string name="btn_pick_luac">SELECT .LUAC FILE</string>
+    <string name="btn_pick_lua">SELECT .LUA FILE</string>
+    <string name="btn_xor_run">RUN XOR</string>
+    <string name="btn_storage">OPEN SETTINGS</string>
+    <string name="key_hint">Enter XOR key (text or hex like 0xAB CD)</string>
+    <string name="done">Done!</string>
+    <string name="working">Working…</string>
+</resources>

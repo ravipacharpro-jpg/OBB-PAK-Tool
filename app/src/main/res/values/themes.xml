@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent2</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
+    <style name="ToolCardTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="ToolCardDesc">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="ToolButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textSize">13sp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="StatusText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/accent2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>
